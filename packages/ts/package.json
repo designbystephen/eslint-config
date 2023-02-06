@@ -1,0 +1,42 @@
+{
+  "name": "@designbystephen/eslint-config-ts",
+  "version": "0.1.0",
+  "private":true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "designbystephen's ESLint config for TS libs",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript"
+  ],
+  "author": "Stephen Roth <designbystephen@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designbystephen/eslint-config.git"
+  },
+  "dependencies": {
+    "@designbystephen/eslint-config-base": "*",
+    "@rushstack/eslint-patch": "~1.2.0",
+    "@typescript-eslint/eslint-plugin": "~5.50.0",
+    "@typescript-eslint/parser": "~5.50.0",
+    "eslint-import-resolver-typescript": "~3.5.0",
+    "eslint-plugin-import": "~2.27.0",
+    "eslint-plugin-jsx-a11y": "~6.7.0",
+    "eslint-plugin-prettier": "~4.2.0",
+    "eslint-plugin-react": "~7.32.0",
+    "eslint-plugin-react-hooks": "~4.6.0",
+    "prettier": "~2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.5.0",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "~8.33.0",
+    "typescript": "~4.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@designbystephen/eslint-config",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "eslint": "~8.33.0",
+    "typescript": "~4.9.0"
+  }
+}

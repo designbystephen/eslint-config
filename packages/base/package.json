@@ -1,0 +1,33 @@
+{
+    "name": "@designbystephen/eslint-config-base",
+    "version": "0.1.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "designbystephen's ESLint base config",
+    "keywords": [
+        "eslint",
+        "config"
+    ],
+    "author": "Stephen Roth <designbystephen@users.noreply.github.com>",
+    "license": "MIT",
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/designbystephen/eslint-config.git"
+    },
+    "dependencies": {
+        "eslint-config-airbnb-base": "~15.0.0",
+        "eslint-config-prettier": "~8.6.0"
+    },
+    "peerDependencies": {
+        "eslint": "^8.5.0",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "eslint": "~8.33.0",
+        "eslint-plugin-import": "~2.27.0"
+    }
+}
